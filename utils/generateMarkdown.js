@@ -4,6 +4,9 @@ function generateMarkdown(response) {
 
 # ${response.title}
 
+## Description
+🔍 ${answers.description}
+
 # Table of Content
 -[description](#description)
 -[installation](#installation)
