@@ -80,19 +80,10 @@ const questions = [
 ];
 
 // function to write README file
-// const fs = require('fs');
-const { promisify } = require('util');
-const readFile = promisify(fs.readFile);
-
-(async() =>  {
-   try {
-      const result = await readFile('readme.txt', 'utf8');
-      consle.log(result);
-   } catch(e) {
-      console.error(e);
-   }
-})();
-
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('success'));
+     console.log(data.title);
+}
 // Now initializing the program
 function init() {
     inquirer
