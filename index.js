@@ -56,6 +56,7 @@ const questions = [
     },
     {
         type: 'list',
+        name: 'license',
         message: "Choose a license that your application is under",
         choices: ['GNU AGPLv3', 'MIT License', 'Apache License 2.0', 'Mozilla Public License', 'The Unlicense'],
     },
@@ -79,12 +80,19 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('success'));
-     console.log(data.title);
-        
-    
-}
+// const fs = require('fs');
+const { promisify } = require('util');
+const readFile = promisify(fs.readFile);
+
+(async() =>  {
+   try {
+      const result = await readFile('readme.txt', 'utf8');
+      consle.log(result);
+   } catch(e) {
+      console.error(e);
+   }
+})();
+
 // Now initializing the program
 function init() {
     inquirer
@@ -98,32 +106,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-// function to initialize program
-//   async function  init() {
-//     try{
-//         //prompmt inquirer questions
-//         const userResponses = inquirer.createPromptModule(questions);
-//         console.log("Your responses: ", userResponses);
-//         console.log("Thank you for your responses! Fetching your your Github data....");
-//         //call Github api for user info
-//         const userinfo = await generateMarkdown.getUser(userResponses);
-//         // const userInfo =await api.getUser(userResponses);
-//         console.log("Your Github user info: ", user);
-        
-//         // pass Inqurer userResponses and Github userInfo to generateMarkdown
-//         console.log("Generating your README soon... ");
-//         const markdown =generateMarkdown(userResponses, userInfo);
-//         console.log(markdown);
-
-//         // writing markdown to file
-//         await writeFileAsync('README.md', markdown);
-
-//     } catch (error) {
-//             console.log(error);
-        
-//     }
-
-
-// function call to initialize program
-// init();
