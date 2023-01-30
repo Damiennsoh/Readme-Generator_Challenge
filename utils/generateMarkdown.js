@@ -10,20 +10,17 @@ function generateMarkdown(response) {
 # Table of Content
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contribution](#contribution)
 * [Test](#test)
 * [Questions](#questions) 
 * [Deployed Site URL](#deployed-site-url) 
+* [License](#license)
 
 ## Installation:   
   ${response.installation}
 
 ## Usage:
   ${response.usage}
-    
-## License:
-  ${response.license}
 
 ## Contribution:
   ${response.contribution}
@@ -39,7 +36,7 @@ function generateMarkdown(response) {
 ## Deployed Site URL
   ${response.deployed_site_url}
 
-  ## License_text
+  ## License:
 This project is covered by the ${response.license}. \n
   ${response.insert_license_text}
 

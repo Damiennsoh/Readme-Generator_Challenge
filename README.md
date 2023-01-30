@@ -8,20 +8,17 @@
 # Table of Content
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contribution](#contribution)
 * [Test](#test)
 * [Questions](#questions) 
 * [Deployed Site URL](#deployed-site-url) 
+* [License](#license)
 
 ## Installation:   
   The installation does not require any traditional installation like those of windows applications. All that you need is to generate it from the commandline interface of your operating system's terminal by using the command (node index.js).
 
 ## Usage:
   The application can be used by simply generating the readme file through CLI of your OS or through vscode app by using the command (node index.js), this will generate the readme.md file with your inputs or responses written on it.
-    
-## License:
-  MIT License
 
 ## Contribution:
   There are no special rules regarding your contribution, just add your contribution as you deem fit.
@@ -38,14 +35,8 @@
 ## Deployed Site URL
   https://damiennsoh.github.io/Readme-Generator_Challenge/
 
-  ## License_text
+  ## License:
 This project is covered by the MIT License. 
 
   Copyright (c) 2023 Damien N. Ayine
-  
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
