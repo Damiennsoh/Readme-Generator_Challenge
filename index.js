@@ -38,7 +38,7 @@ const questions = [
     {
         type: 'input',
         message: "Write a description of your project",
-        name: 'Description',
+        name: 'description',
         validate: function(answer){
             if(answer.length < 1){
                 return console.log("A valid description is required");

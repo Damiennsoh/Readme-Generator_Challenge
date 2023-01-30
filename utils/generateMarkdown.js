@@ -2,20 +2,20 @@
 function generateMarkdown(response) {
   return `
 
-# ${response.title}
+# ${response.project_title}
 
 ## Description
 🔍 ${response.description}
 
 # Table of Content
--[description](#description)
--[installation](#installation)
--[usage](#usage)
--[licenses](#licenses)
--[contribution](#contribution)
--[test](#test)
--[username](#username)
--[profile](#profile)
+* [description](#description)
+* [installation](#installation)
+* [usage](#usage)
+* [licenses](#licenses)
+* [contribution](#contribution)
+* [test](#test)
+* [username](#username)
+* [profile](#profile)
 
 ## username:
 ${response.username}
