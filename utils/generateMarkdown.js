@@ -8,17 +8,14 @@ function generateMarkdown(response) {
 🔍 ${response.description}
 
 # Table of Content
-* [description](#description)
-* [installation](#installation)
-* [usage](#usage)
-* [licenses](#licenses)
-* [contribution](#contribution)
-* [test](#test)
-* [username](#username)
-* [profile](#profile)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Licenses](#licenses)
+* [Contribution](#contribution)
+* [Test](#test)
+* [Questions](#questions) 
+* [Deployed Site URL](#deployed-site-url) 
 
-## username:
-${response.username}
 
     ${response.description}
 ## description:
@@ -30,19 +27,22 @@ ${response.username}
 ##usage:
 
     ${response.licenses}
-## licenses:
+## Licenses:
 
     ${response.contribution}
-## contribution:
+## Contribution:
 
     ${response.test}
-##test:
+## Test:
 
-    ${response.email}
-## email:
+## Questions
+  You can direct any questions that you may have regarding this project to; \n
+  ${'- ' + 'GitHub: ' + '[' + response.github_username + ']' + '(https://github.com/' + response.github_username +')'}
+  ${'- ' + 'Email: ' + response.email_address}
 
-    ${response.profile}
-## profile:
+This project is covered by the ${response.license} license. \n
+  ${response.insert_license_text}
+
 `;
 }
 

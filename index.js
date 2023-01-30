@@ -51,13 +51,13 @@ const questions = [
     {
         type: 'input',
         message: "How do you install the application",
-        name: 'Installation',
+        name: 'installation',
 
     },
     {
         type: 'input',
         message: "Are there usage instruction to pass to the users",
-        name: 'Usage',
+        name: 'usage',
     },
     {
         type: 'list',
@@ -68,18 +68,18 @@ const questions = [
     {
         type: 'input',
         message: "Provide rules for other developers to contribute to the application if applicable",
-        name: 'Contributing',
+        name: 'contributing',
     },
     {
         type: 'input',
         message: 'How can the application be tested?',
-        name: 'Tests'
+        name: 'tests'
 
     },
     {
         type: 'input',
         message: 'Please insert license text here',
-        name: 'insert licence text',
+        name: 'insert_license_text',
         
     }
 ];
