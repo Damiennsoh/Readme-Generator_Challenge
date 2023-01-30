@@ -22,8 +22,8 @@ function generateMarkdown(response) {
 ## Usage:
   ${response.usage}
     
-## Licenses:
-  ${response.licenses}
+## License:
+  ${response.license}
 
 ## Contribution:
   ${response.contribution}
@@ -33,8 +33,8 @@ function generateMarkdown(response) {
 
 ## Questions
   You can direct any questions that you may have regarding this project to; \n
-  ${'- ' + 'GitHub: ' + '[' + response.github_username + ']' + '(https://github.com/' + response.github_username +')'}
-  ${'- ' + 'Email: ' + response.email_address}
+  ${'- ' + 'GitHub: ' + '[' + response.username + ']' + '(https://github.com/' + response.username +')'}
+  ${'- ' + 'Email: ' + response.email}
 
 This project is covered by the ${response.license}. \n
   ${response.insert_license_text}
