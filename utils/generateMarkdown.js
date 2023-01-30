@@ -5,7 +5,7 @@ function generateMarkdown(response) {
 # ${response.title}
 
 ## Description
-🔍 ${answers.description}
+🔍 ${response.description}
 
 # Table of Content
 -[description](#description)
@@ -17,8 +17,8 @@ function generateMarkdown(response) {
 -[username](#username)
 -[profile](#profile)
 
-${response.username}
 ##username:
+${response.username}
 
     ${response.description}
 ##description:

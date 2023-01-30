@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'project_title',
+        message: 'What is the project title?',
+    },
+    {
+        type: 'input',
         message: "Write a description of your project",
         name: 'Description',
         validate: function(answer){
@@ -94,6 +99,8 @@ function init() {
         }
         );
 }
+
+
 
 // function call to initialize program
 init();
