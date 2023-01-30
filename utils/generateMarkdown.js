@@ -36,6 +36,10 @@ function generateMarkdown(response) {
   ${'- ' + 'GitHub: ' + '[' + response.username + ']' + '(https://github.com/' + response.username +')'}
   ${'- ' + 'Email: ' + response.email}
 
+## Deployed Site URL
+  ${response.deployed_site_url}
+
+  ## License_text
 This project is covered by the ${response.license}. \n
   ${response.insert_license_text}
 

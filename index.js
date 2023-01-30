@@ -83,6 +83,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'insert your deployed link here',
+        name: 'deployed_site_url',
+    },
+    {
+        type: 'input',
         message: 'Please insert license text here',
         name: 'insert_license_text',
         
