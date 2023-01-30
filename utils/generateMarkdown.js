@@ -17,32 +17,32 @@ function generateMarkdown(response) {
 -[username](#username)
 -[profile](#profile)
 
-##username:
+## username:
 ${response.username}
 
     ${response.description}
-##description:
+## description:
 
     ${response.installation}
-##installation:
+## installation:
 
     ${response.usage}
 ##usage:
 
     ${response.licenses}
-##licenses:
+## licenses:
 
     ${response.contribution}
-##contribution:
+## contribution:
 
     ${response.test}
 ##test:
 
     ${response.email}
-##email:
+## email:
 
     ${response.profile}
-##profile:
+## profile:
 `;
 }
 
