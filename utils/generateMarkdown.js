@@ -10,7 +10,7 @@ function generateMarkdown(response) {
 # Table of Content
 * [Installation](#installation)
 * [Usage](#usage)
-* [Licenses](#licenses)
+* [License](#license)
 * [Contribution](#contribution)
 * [Test](#test)
 * [Questions](#questions) 

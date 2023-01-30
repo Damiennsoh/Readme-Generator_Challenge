@@ -68,12 +68,12 @@ const questions = [
     {
         type: 'input',
         message: "Provide rules for other developers to contribute to the application if applicable",
-        name: 'contributing',
+        name: 'contribution',
     },
     {
         type: 'input',
         message: 'How can the application be tested?',
-        name: 'tests'
+        name: 'test'
 
     },
     {
