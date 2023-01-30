@@ -16,31 +16,27 @@ function generateMarkdown(response) {
 * [Questions](#questions) 
 * [Deployed Site URL](#deployed-site-url) 
 
+## Installation:   
+  ${response.installation}
 
-    ${response.description}
-## description:
-
-    ${response.installation}
-## installation:
-
-    ${response.usage}
-##usage:
-
-    ${response.licenses}
+## Usage:
+  ${response.usage}
+    
 ## Licenses:
+  ${response.licenses}
 
-    ${response.contribution}
 ## Contribution:
-
-    ${response.test}
+  ${response.contribution}
+   
 ## Test:
+  ${response.test}
 
 ## Questions
   You can direct any questions that you may have regarding this project to; \n
   ${'- ' + 'GitHub: ' + '[' + response.github_username + ']' + '(https://github.com/' + response.github_username +')'}
   ${'- ' + 'Email: ' + response.email_address}
 
-This project is covered by the ${response.license} license. \n
+This project is covered by the ${response.license}. \n
   ${response.insert_license_text}
 
 `;
